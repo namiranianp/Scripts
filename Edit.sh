@@ -1,4 +1,4 @@
 #!/bin/bash
 
-vim ~/Code/Scripts/$1.sh
+vim $SCRIPTS/$1.sh
 

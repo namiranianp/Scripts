@@ -20,6 +20,4 @@ sleep .1
 #Starrez
 open https://pnamiranian:$1@starrez.usfca.edu/StarRezWeb/Dashboard/426;
 
-#jamz
-open -a Spotify -g
 

@@ -1,0 +1,36 @@
+#functions
+comp() {
+    gcc -g -Wall $1 -o $2
+}
+
+base() {
+    echo "obase=$2; "$1| bc
+}
+
+mvcd() {
+    mv $1 $2;
+    cd $2
+}
+
+oh() {
+    open "https://www.$1"
+}
+
+ohi() {
+    open -na "Google Chrome" --args --incognito 'https://www.'$1
+}
+
+mkcd() {
+    mkdir $1;
+    cd $1
+}
+
+cl() {
+    clear;
+    ls
+}
+
+cla() {
+    clear;
+    lsa
+}
