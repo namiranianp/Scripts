@@ -1,0 +1,27 @@
+
+#Aliases
+alias pull='git pull'
+alias ls='ls -G'
+alias lsa='ls -all'
+alias bp='vim ~/.bash_profile'
+alias hs='history | grep' $1
+alias h='history'
+alias rf='rm -rf'
+alias ..='cd ..'
+alias myip='curl http://ipecho.net/plain; echo'
+alias rpi='screen /dev/cu.usbserial 115200'
+alias getScreen='lsof | grep usbserial'
+alias klc='kl "Google Chrome"'
+alias sp='sudo python '
+alias sshcs='ssh pnamiranian@stargate.cs.usfca.edu'
+alias shift='open https://docs.google.com/spreadsheets/d/1ho2k3qRw3FrEBh1YDuZbDjABp5zu3UWVoLqvDSANwqQ/edit#gid=0'
+alias math='open ~/Documents/UTMLinear-Algebra-Through-Geometry.pdf | ohi vincematsko.com/Spring2018/MAT202/2018S_LinAlg.html'
+
+#Bash Scripts
+alias Scripts='cd ~/Code/Scripts'
+alias Java='Java.sh'
+alias CA='CA.sh'
+alias Git='Git.sh'
+alias Edit='Edit.sh'
+alias kl='Term.sh'
+alias Colors='Colors.sh'
