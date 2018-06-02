@@ -31,7 +31,6 @@ main() {
 	else
 		local myDir
 		myDir=$(pwd)
-		myDir=${myDir%/*}
 		rm -rf ${myDir%/*}
 		echo "setup is completed"
 	fi
@@ -86,6 +85,10 @@ appendBash() {
 	#replaces ~ at start of path with their home directory
 	if [ ${2%%/*} = "~" ]; then
 		scriptLoc="$HOME${2#~*}"
+	fi
+
+	if ! [ -f "$fileLoc" ]; then
+		touch "$fileLoc"
 	fi
 
 	echo "#Beginning of Bash Helper code" >> $fileLoc
