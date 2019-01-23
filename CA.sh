@@ -7,17 +7,17 @@ open -na "Google Chrome";
 sleep .5
 
 #guest log
-open https://docs.google.com/spreadsheets/d/1IH_Rm-VnXIzvpQf3Hnfia4aVg9vTaPwtBeN3koKGCH8/edit#gid=191525857;
+open https://docs.google.com/spreadsheets/d/115meS6AFlRV0pNMPkEP5-WtIFFTMjwW_ip4J3Y5m8LQ/edit#gid=10
 
 #slack
-open https://lomo-hall.slack.com/messages/C6KAWTX1N/convo/C6Q1FU7AA-1519430618.000060/;
+open https://toler18-19.slack.com/messages/CC6GY8BC6/convo/CC197T49X-1535573899.000100/
 
-#shift tasks 
-open https://docs.google.com/document/d/1_mAGKx3C7vxWmKPoPX3GNgeFmgWy9qNQGjzz_NWNLFI/edit;
+#resource folder
+open https://drive.google.com/drive/u/1/folders/1ltPyB0Br-mcZmIwhW-DsC3zyvcBQCSZh
 
 sleep .1
 
 #Starrez
-open https://pnamiranian:$1@starrez.usfca.edu/StarRezWeb/Dashboard/426;
+open https://pnamiranian:hellome123@starrez.usfca.edu/StarRezWeb/Dashboard/426;
 
 

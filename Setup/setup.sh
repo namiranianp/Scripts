@@ -56,13 +56,11 @@ noCommandsGiven() {
 
 	echo -n "Enter the absolute path of where you want to store the scripts: "
 	read scriptPath
-	echo "scriptPath is $scriptPath"
 
 	moveScripts "$scriptPath"
 
 	echo "Enter the absolute path of your .bash_profile or .bashrc"
 	read bashFile
-	echo "bashfile is $bashFile"
 
 	appendBash "$bashFile" "$scriptPath"
 }
