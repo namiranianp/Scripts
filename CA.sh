@@ -18,6 +18,6 @@ open https://drive.google.com/drive/u/1/folders/1ltPyB0Br-mcZmIwhW-DsC3zyvcBQCSZ
 sleep .1
 
 #Starrez
-open https://pnamiranian:hellome123@starrez.usfca.edu/StarRezWeb/Dashboard/426;
+open https://starrez.usfca.edu/StarRezWeb/Dashboard/426;
 
 
